@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://miuiver.com/sagit-20-6-18/
-  ROM_NAME: 
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
